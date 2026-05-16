@@ -1,9 +1,5 @@
 {
-  "buildCommand": "pip install -r requirements.txt",
-  "functions": {
-    "api/functions/fraud_daily.py": {
-      "maxDuration": 300
-    }
+  "buildCommand": "pip install -r requirements.txt"
   },
   "crons": [
     {
