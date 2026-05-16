@@ -1,10 +1,5 @@
 {
   "buildCommand": "pip install -r requirements.txt",
-  "env": {
-    "SPOTIFY_TOKEN": "@spotify_token",
-    "SLACK_WEBHOOK": "@slack_webhook",
-    "CRON_SECRET": "@cron_secret"
-  },
   "functions": {
     "api/functions/fraud_daily.py": {
       "maxDuration": 300
